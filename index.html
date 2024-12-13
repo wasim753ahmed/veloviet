@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Animation Cards</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+      }
+
+      .header {
+        background-color: orange;
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+        font-size: 24px;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin: 20px;
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 0 10px;
+      }
+
+      .footer {
+        background-color: orange;
+        text-align: center;
+        color: white;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        font-size: 14px;
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Animations</div>
+    <div class="container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="1.jpg" alt="Animation Image" />
+        <div class="card-title">
+          Animation Techniques: From Basics to Advanced
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="2.jpg" alt="Animation Image" />
+        <div class="card-title">The Rise of Independent Animators</div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="3.jpg" alt="Animation Image" />
+        <div class="card-title">Celebrating Classic Disney Moments</div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="4.jpg" alt="Animation Image" />
+        <div class="card-title">The Impact of Animation on Kids</div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="5.jpg" alt="Animation Image" />
+        <div class="card-title">
+          The Future of Animation: Trends & Innovations
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="6.jpg" alt="Animation Image" />
+        <div class="card-title">
+          Behind the Scenes: The Making of Animated Movies
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="card">
+        <img src="7.jpg" alt="Animation Image" />
+        <div class="card-title">Exploring the Magic of Studio Ghibli</div>
+      </div>
+      <!-- Card 8 -->
+      <div class="card">
+        <img src="8.jpg" alt="Animation Image" />
+        <div class="card-title">The Art of Storytelling in Animation</div>
+      </div>
+      <!-- Card 9 -->
+      <div class="card">
+        <img src="1.jpg" alt="Animation Image" />
+        <div class="card-title">How Animation Influences Popular Culture</div>
+      </div>
+      <!-- Card 10 -->
+      <div class="card">
+        <img src="2.jpg" alt="Animation Image" />
+        <div class="card-title">Top 10 Iconic Animated Movies</div>
+      </div>
+      <!-- Card 11 -->
+      <div class="card">
+        <img src="3.jpg" alt="Animation Image" />
+        <div class="card-title">
+          The Evolution of Animation: Past to Present
+        </div>
+      </div>
+      <!-- Card 12 -->
+      <div class="card">
+        <img src="4.jpg" alt="Animation Image" />
+        <div class="card-title">The Role of Animation in Education</div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright © 2023 by veloviet.online |
+      <a href="terms.html">Terms of Use</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="cookie.html">Cookie Policy</a>
+    </div>
+  </body>
+</html>
